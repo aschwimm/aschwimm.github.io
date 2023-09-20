@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Advanced Search</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <form action="https://www.google.com/search">
-            <input type="text" name="as_q" autocomplete="off" autofocus placeholder="All these words">
-            <input type="text" name="as_epq" autocomplete="off" autofocus placeholder="This exact word or phrase">
-            <input type="text" name="as_oq" autocomplete="off" autofocus placeholder="Any of these words">
-            <input type="text" name="as_eq" autocomplete="off" autofocus placeholder="None of these words">
-            <input type="submit" value="Advanced Search">
+                <div id="adv-search-header">Advanced Search</div>
+                <div class="adv-search-wrapper">
+                    <div class="adv-search-instruction">all these words:</div>
+                    <input type="text" name="as_q" autocomplete="off" autofocus placeholder="All these words">
+                    <div class="example-input">Type the important words:<span class="example-font">tricolor rat terrier</span></div>
+                </div>
+                
+                <div class="adv-search-wrapper">
+                    <div class="">this exact word or phrase:</div>
+                    <input type="text" name="as_epq" autocomplete="off" autofocus placeholder="This exact word or phrase">
+                    <div class="">Put exact words in quotes:  "rat terrier"</div>
+                </div>
+                <div class="adv-search-wrapper">
+                    <div class="">any of these words:</div>
+                    <input type="text" name="as_oq" autocomplete="off" autofocus placeholder="Any of these words">
+                    <div class="">Type OR between all the words you want:  miniature OR standard
+                    </div>
+                </div>
+                <div class="adv-search-wrapper">
+                    <div class="">none of these words:</div>
+                    <input type="text" name="as_eq" autocomplete="off" autofocus placeholder="None of these words">
+                    <div class="">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</div>
+                </div>
+                <div>
+                    <input type="submit" value="Advanced Search">
+                </div>
         </form>
         <a href="index.html">Back to index</a>
     </body>

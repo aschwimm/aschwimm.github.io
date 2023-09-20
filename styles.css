@@ -72,3 +72,23 @@
 .submit-button:hover {
     box-shadow: 0px 0px 5px 0.5px lightgray;
 }
+.adv-search-wrapper {
+    display: grid;
+    grid-template-columns: 300px 570px 500px;
+    font-family: Arial, sans-serif;
+}
+.adv-search-instruction {
+    font-size: 13px;
+}
+#adv-search-header {
+    color: #d93025;
+    font-size: 20px;
+}
+.example-input {
+    font-size: 11px;
+}
+.example-font {
+    font-family: monospace;
+    font-size: 11px;
+    margin-left: 8px;
+}
