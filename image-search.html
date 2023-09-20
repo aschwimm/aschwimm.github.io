@@ -5,11 +5,22 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <form action="https://www.google.com/images">
-            <input type="text" name="q" autocomplete="off" autofocus>
-            <input type="submit" value="Image Search">
-        </form>
         <a href="index.html">Back to index</a>
         <a href="advanced-search.html">Advanced Search</a>
+        <div class="search-container">
+            <form action="https://www.google.com/images">
+                <div id="search-wrapper">
+                    <div class="logo-wrapper">
+                        <img id="google-logo" src="google_logo.svg">
+                        <div class="images-label">Images</div>
+                    </div>
+                    <input id="search-bar" type="text" name="q" autocomplete="off" autofocus>
+                    <div class="submit-wrapper">
+                        <input class="submit-button" type="submit" value="Image Search">
+                        <input class="submit-button" type="submit" value="I&#39m Feeling Lucky" name="btnI">
+                    </div>
+                </div>
+            </form>
+            </div>
     </body>
 </html>

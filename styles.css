@@ -8,10 +8,14 @@
     background-color: white;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    margin-top: 237px;
+    margin-left: 16px;
 }
 #google-logo {
     width: 272px;
     height: 92px;
+    position: relative;
 }
 #search-wrapper {
     position: relative;
@@ -21,12 +25,20 @@
     display: flex;
     flex-direction: column;
 }
+.images-label {
+    position: absolute;
+    top: 32%;
+    right: 27.5%;
+    color: #4285F4;
+    font-weight: 400;
+    font-family: roboto-regular, arial, sans-serif;
+}
 #search-bar {
-    height: 46px;
-    width: 582px;
-    border-radius: 20px;
+    height: 44px;
+    width: 530px;
+    border-radius: 22px;
     font-size: 16px;
-    margin-top: 35px;
+    margin-top: 25px;
     padding: 0px 5px 0px 45px;
     outline: 1px solid rgb(232, 229, 229);
     border: 0;
@@ -39,10 +51,11 @@
 }
 .submit-wrapper {
     display: grid;
-    margin-top: 20px;
+    margin-top: 33px;
     justify-content: center;
-    grid-template-columns: 140px 140px;
-    column-gap: 10px;
+    align-items: center;
+    grid-template-columns: auto auto;
+    column-gap: 13px;
 }
 .submit-button {
     height: 35px;
@@ -53,8 +66,7 @@
     color: #3c4043;
     border-radius: 4px;
     font-size: 14px;
-    padding: 0px 10px;
-    text-align: center;
+    padding: 0px 15px 0px 15px;
     cursor: pointer;
 }
 .submit-button:hover {
