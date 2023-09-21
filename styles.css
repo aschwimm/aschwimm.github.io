@@ -8,7 +8,7 @@
     justify-content: flex-end;
     grid-template-columns: auto auto;
     column-gap: 30px;
-    margin: 10px 30px 0px 0px;
+    padding: 20px 30px 0px 0px;
 }
 .nav-links {
     text-decoration: none;
@@ -16,13 +16,11 @@
     color: #333333;
 }
 .search-container {
-    height: 1200px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-top: 237px;
-    margin-left: 16px;
 }
 #google-logo {
     width: 272px;
@@ -37,10 +35,14 @@
     display: flex;
     flex-direction: column;
 }
+.logo-wrapper {
+    position: relative;
+}
 .images-label {
-    position: absolute;
-    top: 32%;
-    right: 27.5%;
+    position: relative;
+    text-align: right;
+    top: -20px;
+    right: 5px;
     color: #4285F4;
     font-weight: 400;
     font-family: roboto-regular, arial, sans-serif;
@@ -147,4 +149,9 @@
     margin-top: 20px;
     font-weight: 600;
     font-size: 11px;
+}
+@media screen and (max-width: 800px) {
+    #search-bar {
+        width: 75vw;
+    }
 }
