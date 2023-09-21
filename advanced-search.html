@@ -7,32 +7,39 @@
     <body>
         <form action="https://www.google.com/search">
             <div class="adv-search-container">
-                    <div id="adv-search-header">Advanced Search</div>
-                    <div class="">Find pages with...</div>
+                <img id="google-logo" clas="adv-search-logo" style="width: 72px; height: 24px; margin-top: 20px; margin-left: 20px;" src="google_logo.svg">    
+                <div id="adv-search-header">Advanced Search</div>
+                <span class="adv-search-line"></span>
+                <div class="input-header-wrapper">
+                    <div style="font-size: 16px; color: #333333;">Find pages with...</div>
+                    <div style="padding-left: 20px;"></div>
+                    <div style="padding-left: 20px; font-size: 13px; font-weight: 500; color: #333333;">To do this in the search box</div>
+                </div>
                 <div class="adv-search-wrapper">
                     <div class="adv-search-instruction">all these words:</div>
-                    <input class="adv-search-input" type="text" name="as_q" autocomplete="off" autofocus placeholder="All these words">
+                    <input class="adv-search-input" type="text" name="as_q" autocomplete="off" autofocus>
                     <div class="example-input">Type the important words:<span class="example-font">tricolor rat terrier</span></div>
                 </div>
                 
                 <div class="adv-search-wrapper">
                     <div class="adv-search-instruction">this exact word or phrase:</div>
-                    <input class="adv-search-input" type="text" name="as_epq" autocomplete="off" autofocus placeholder="This exact word or phrase">
+                    <input class="adv-search-input" type="text" name="as_epq" autocomplete="off" autofocus>
                     <div class="example-input">Put exact words in quotes:<span class="example-font">"rat terrier"</span></div>
                 </div>
                 <div class="adv-search-wrapper">
                     <div class="adv-search-instruction">any of these words:</div>
-                    <input class="adv-search-input" type="text" name="as_oq" autocomplete="off" autofocus placeholder="Any of these words">
+                    <input class="adv-search-input" type="text" name="as_oq" autocomplete="off" autofocus>
                     <div class="example-input">Type OR between all the words you want:<span class="example-font">miniature OR standard</span></div>
                 </div>
                 <div class="adv-search-wrapper">
                     <div class="adv-search-instruction">none of these words:</div>
-                    <input class="adv-search-input" type="text" name="as_eq" autocomplete="off" autofocus placeholder="None of these words">
+                    <input class="adv-search-input" type="text" name="as_eq" autocomplete="off" autofocus>
                     <div class="example-input">Put a minus sign just before words you don't want:<span class="example-font">-rodent, -"Jack Russell"</span></div>
+                    <div class=""></div>
+                    <input type="submit" value="Advanced Search" id="adv-search-button">
                 </div>
-                <div>
-                    <input type="submit" value="Advanced Search">
-                </div>
+                 
+                
                 </div>
         </form>
         <a href="index.html">Back to index</a>
