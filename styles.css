@@ -154,4 +154,7 @@
     #search-bar {
         width: 75vw;
     }
+    .search-container {
+        margin-top: 40px;
+    }
 }
