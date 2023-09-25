@@ -150,6 +150,11 @@
     font-weight: 600;
     font-size: 11px;
 }
+
+#adv-search-button:hover {
+    border: 1px solid #333333;
+    background-color: #3b84f9;
+}
 @media screen and (max-width: 800px) {
     #search-bar {
         width: 75vw;
